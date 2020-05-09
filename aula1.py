@@ -20,4 +20,4 @@ for click in range(10):
     print(f'Os valors são iguais {ps[-1].text == str(click)}')
 
 
-navegador.quit()
+#navegador.quit()
