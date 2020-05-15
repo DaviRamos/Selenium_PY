@@ -1,0 +1,39 @@
+runo Fernandes, [13.05.20 20:41]
+Boa noite alguem já usou o modo headless no selenium?
+
+Gabriel Gerhard, [13.05.20 20:47]
+primeiro tu importa esse cara aqui
+
+Gabriel Gerhard, [13.05.20 20:47]
+from selenium.webdriver.chrome.options import Options
+
+Gabriel Gerhard, [13.05.20 20:48]
+depois tu coloca isso aqui no teu código
+
+Gabriel Gerhard, [13.05.20 20:48]
+options = Options()
+# options.add_argument("--headless") # Roda o ChromeDriver em Background
+options.add_argument('--no-sandbox')  # Bypass OS security model
+# options.add_argument('--disable-gpu')  # applicable to windows os only
+options.add_argument('start-maximized')
+ #inicia o chrome maximizado
+options.add_argument('disable-infobars')
+# options.add_argument("--disable-extensions")
+Gabriel Gerhard, [13.05.20 20:47]
+primeiro tu importa esse cara aqui
+
+Gabriel Gerhard, [13.05.20 20:47]
+from selenium.webdriver.chrome.options import Options
+
+Gabriel Gerhard, [13.05.20 20:48]
+depois tu coloca isso aqui no teu código
+
+Gabriel Gerhard, [13.05.20 20:48]
+options = Options()
+# options.add_argument("--headless") # Roda o ChromeDriver em Background
+options.add_argument('--no-sandbox')  # Bypass OS security model
+# options.add_argument('--disable-gpu')  # applicable to windows os only
+options.add_argument('start-maximized')
+ #inicia o chrome maximizado
+options.add_argument('disable-infobars')
+# options.add_argument("--disable-extensions")
